@@ -1,6 +1,6 @@
 version: '3'
 services:
-  chain0: 
+  yumzee: 
     image: sadfroghk/yumzee
     network_mode: host
     container_name: yumzee
