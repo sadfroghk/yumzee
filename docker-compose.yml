@@ -6,7 +6,6 @@ services:
     container_name: yumzee
     restart: unless-stopped
     command: bash /root/init.sh node
-    pull_policy: always
     volumes:
       - ~/.yumzee:/root/.yumzee
     environment:
