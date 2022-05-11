@@ -6,5 +6,7 @@ services:
     container_name: yumzee
     restart: unless-stopped
     command: bash /root/init.sh node
+    volumes:
+      - ~/.yumzee:/root/.yumzee
     environment:
       - MONIKER=YOU_MONIKER_NAME
